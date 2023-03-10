@@ -7,7 +7,7 @@ const Home: NextPage = () => {
   return (
     <div className="w-full h-full">
       <Head>
-        <title>3D Portfolio</title>
+        <title>Live portfolio</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Scroll />

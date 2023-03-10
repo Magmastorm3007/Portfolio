@@ -8,28 +8,28 @@ const Skills = () => {
       </div>
       <div className="grid items-center grid-cols-4 gap-4 font-inter">
         <div className="w-[250px] h-[150px] bg-[#1e293b] p-4 rounded-lg flex justify-center items-center text-3xl font-bold">
-          MERN
+          ReactJS
         </div>
         <div className="w-[250px] h-[150px] bg-[#1e293b] p-4 rounded-lg flex justify-center items-center text-3xl font-bold">
-          NEXT.JS
+          EXPRESSJS
         </div>
         <div className="w-[250px] h-[150px] bg-[#1e293b] p-4 rounded-lg flex justify-center items-center text-3xl font-bold">
           FIREBASE
         </div>
         <div className="w-[250px] h-[150px] bg-[#1e293b] p-4 rounded-lg flex justify-center items-center text-3xl font-bold">
-          STEPZEN
+          MYSQL
         </div>
         <div className="w-[250px] h-[150px] bg-[#1e293b] p-4 rounded-lg flex justify-center items-center text-3xl font-bold">
-          SUPABASE
+        BOOTSTRAP
         </div>
         <div className="w-[250px] h-[150px] bg-[#1e293b] p-4 rounded-lg flex justify-center items-center text-3xl font-bold">
-          GRAPHQL
+          MONGODB
         </div>
         <div className="w-[250px] h-[150px] bg-[#1e293b] p-4 rounded-lg flex justify-center items-center text-3xl font-bold">
-          TYPESCRIPT
+          C++
         </div>
         <div className="w-[250px] h-[150px] bg-[#1e293b] p-4 rounded-lg flex justify-center items-center text-3xl font-bold">
-          TAILWINDCSS
+         Unity
         </div>
       </div>
     </div>

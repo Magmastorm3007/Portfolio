@@ -15,17 +15,15 @@ const About = () => {
         <h2 className="text-4xl font-bold">About Me</h2>
       </div>
       <p className="pl-10 text-xl tracking-wider font-inter">
-        I am a full stack web developer working on over 10 years of experience.
-        I love to take challenge and egger to deliver it within schedule.My
-        expertise on MERN stack, Nextjs, Firebase, Stepzen, Supabase PostgreSQL,
-        GraphQL, Typescript, Tailwind etc. I have well experienced to convert
-        website from Figma, Photoshop, Adobe XD file.
+        I am a third year student at Manipal University Jaipur
+        with solid knowledge of Data Structures and Algorithms skilled in C/C++, Javascript, CSharp, and Python. I have applied my Web Development skills using MERN Stack, Firebase , Git, and Unity Engine for game design and development. 
       </p>
       <div className="pt-20">
         <p className="uppercase tracking-widest text-[#5651e5]">
           {" "}
           Lets Connect
         </p>
+        
         <div className="flex items-center justify-between my-3 w-full sm:w-[80%] gap-6">
           <div className="p-4 duration-300 ease-in rounded-full shadow-lg cursor-pointer shadow-gray-400 hover:scale-105">
             <FaLinkedinIn />

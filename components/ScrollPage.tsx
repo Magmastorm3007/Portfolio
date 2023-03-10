@@ -14,19 +14,19 @@ export const DivContainer = forwardRef(({ children }, ref) => (
       <Hero />
     </section>
 
-    <section className="flex items-center h-[100vh] relative text-lg uppercase pl-[10%] pr-[10%] text-[#ffeded] justify-end">
+    <section id="about" className="flex items-center h-[100vh] relative text-lg uppercase pl-[10%] pr-[10%] text-[#ffeded] justify-end">
       <About />
     </section>
 
-    <section className="flex items-center h-[100vh] relative text-lg uppercase pl-[10%] pr-[10%] pt-[100px] font-neue text-[#ffeded]">
+    <section id='skill'className="flex items-center h-[100vh] relative text-lg uppercase pl-[10%] pr-[10%] pt-[100px] font-neue text-[#ffeded]">
       <Skills />
     </section>
 
-    <section className="flex items-center h-[100vh] relative text-lg uppercase pl-[10%] pr-[10%] text-[#ffeded] justify-end">
+    <section id="project" className="flex items-center h-[100vh] relative text-lg uppercase pl-[10%] pr-[10%] text-[#ffeded] justify-end">
       <Projects />
     </section>
 
-    <section className="flex items-center h-[100vh] relative text-lg uppercase pl-[10%] pr-[10%]text-[#ffeded]">
+    <section id="contact" className="flex items-center h-[120vh] relative text-lg uppercase pl-[10%] pr-[10%]text-[#ffeded]">
       <Contact />
     </section>
   </>
