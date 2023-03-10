@@ -204,8 +204,8 @@ const ScrollModelAnimation = () => {
           gsap.to(sectionMeshes[currentSection].rotation, {
             duration: 1.5,
             ease: "power2.inOut",
-            x: "+=6",
-            y: "+=3",
+            x: "+=1",
+            y: "+=1",
             z: "+=1.5",
           });
         }

@@ -6,6 +6,7 @@ const Projects = () => {
   return (
     <div className="flex flex-col ml-[120px]">
       <div className="pb-2 text-center font-inter">
+      <div className="w-[400px] h-[450px]"></div>
         <h2 className="text-4xl font-bold">Projects</h2>
       </div>
       <div className="grid items-center grid-cols-3 gap-6 font-inter">
@@ -143,7 +144,9 @@ challenges to save feudal Japan
             </div>
             </div>
           </div>
+          
         </div>
+        
       
   );
 };

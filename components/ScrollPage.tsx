@@ -26,7 +26,7 @@ export const DivContainer = forwardRef(({ children }, ref) => (
       <Projects />
     </section>
 
-    <section id="contact" className="flex items-center h-[120vh] relative text-lg uppercase pl-[10%] pr-[10%]text-[#ffeded]">
+    <section id="contact" className="flex items-center h-[160vh] relative text-lg uppercase pl-[10%] pr-[10%]text-[#ffeded]">
       <Contact />
     </section>
   </>
