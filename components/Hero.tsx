@@ -13,7 +13,7 @@ const Hero = () => {
       </div>
       <div className="p-2">
         <button className="p-2 w-[180px] text-xl font-kaushan">
-          Github
+          Scroll
         </button>
       </div>
     </div>
