@@ -27,7 +27,7 @@
   }
   button {
     @apply shadow-xl rounded-xl uppercase bg-gradient-to-r from-[#ff1722] to-[#fd2da2] text-white;
-    position: relative;
+   
   }
 }
 

@@ -8,9 +8,10 @@ const Projects = () => {
       <div className="pb-2 text-center font-inter">
       <div className="w-[400px] h-[450px]"></div>
         <h2 className="text-4xl font-bold">Projects</h2>
-      </div>
-      <div className="grid items-center grid-cols-3 gap-6 font-inter">
-        <div className="w-[400px] h-[450px] bg-[#1e293b] p-4 rounded-lg flex justify-center items-center text-3xl font-bold">
+  
+      <div className="grid items-center grid-cols-3 gap-9 font-inter">
+        
+        <div className="w-[100%] h-[100%] bg-[#1e293b] p-4 rounded-lg flex justify-center items-center text-3xl font-bold">
           <div className="max-w-sm pt-[30px] rounded shadow-lg">
             <Image
               src="/bookstore.jpg"
@@ -31,7 +32,7 @@ const Projects = () => {
             </div>
           </div>
         </div>
-        <div className="w-[400px] h-[450px] bg-[#1e293b] p-4 rounded-lg flex justify-center items-center text-3xl font-bold">
+        <div className="w-[100%] h-[100%] bg-[#1e293b] p-4 rounded-lg flex justify-center items-center text-3xl font-bold">
           <div className="max-w-sm pt-[30px] overflow-hidden rounded shadow-lg">
             <Image
               src="/chat.jpg"
@@ -52,7 +53,7 @@ const Projects = () => {
             </div>
           </div>
         </div>
-        <div className="w-[400px] h-[450px] bg-[#1e293b] p-4 rounded-lg flex justify-center items-center text-3xl font-bold">
+        <div className="w-[100%] h-[100%] bg-[#1e293b] p-4 rounded-lg flex justify-center items-center text-3xl font-bold">
           <div className="max-w-sm pt-[30px] overflow-hidden rounded shadow-lg">
             <Image
               src="/pixel.jpg"
@@ -73,12 +74,13 @@ const Projects = () => {
             </div>
           </div>
         </div>
+        
     
           </div>
-          <div className="w-[400px] h-[150px]  p-4 rounded-lg flex justify-center items-center text-3xl font-bold">
+          <div className="w-[100%] h-[100%]  p-4 rounded-lg flex justify-center items-center text-3xl font-bold">
             </div>
           <div className="grid items-center grid-cols-3 gap-6 font-inter">
-          <div className="w-[400px] h-[450px] bg-[#1e293b] p-4 rounded-lg flex justify-center items-center text-3xl font-bold">
+          <div className="w-[100%] h-[100%] bg-[#1e293b] p-4 rounded-lg flex justify-center items-center text-3xl font-bold">
           <div className="max-w-sm pt-[30px] overflow-hidden rounded shadow-lg">
             <Image
               src="/weather.jpg"
@@ -100,7 +102,7 @@ accordingly as per the location given
             </div>
           </div>
         </div>
-        <div className="w-[400px] h-[450px] bg-[#1e293b] p-4 rounded-lg flex justify-center items-center text-3xl font-bold">
+        <div className="w-[100%] h-[100%] bg-[#1e293b] p-4 rounded-lg flex justify-center items-center text-3xl font-bold">
           <div className="max-w-sm pt-[30px] overflow-hidden rounded shadow-lg">
             <Image
               src="/araki.jpg"
@@ -122,7 +124,7 @@ challenges to save feudal Japan
             </div>
           </div>
         </div>
-        <div className="w-[400px] h-[450px] bg-[#1e293b] p-4 rounded-lg flex justify-center items-center text-3xl font-bold">
+        <div className="w-[100%] h-[100%] bg-[#1e293b] p-4 rounded-lg flex justify-center items-center text-3xl font-bold">
           <div className="max-w-sm pt-[30px] overflow-hidden rounded shadow-lg">
             <Image
               src="/Phantom.jpg"
@@ -144,7 +146,7 @@ challenges to save feudal Japan
             </div>
             </div>
           </div>
-          
+          </div>
         </div>
         
       
