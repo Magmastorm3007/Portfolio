@@ -25,18 +25,28 @@ const About = () => {
         </p>
         
         <div className="flex items-center justify-between my-3 w-full sm:w-[80%] gap-6">
-          <div className="p-4 duration-300 ease-in rounded-full shadow-lg cursor-pointer shadow-gray-400 hover:scale-105">
+          <div onClick={(e) => {
+      e.preventDefault();
+      window.location.href='https://www.linkedin.com/in/shashwat-nath-077128168/';
+      }} className="p-4 duration-300 ease-in rounded-full shadow-lg cursor-pointer shadow-gray-400 hover:scale-105">
             <FaLinkedinIn />
           </div>
-          <div className="p-4 duration-300 ease-in rounded-full shadow-lg cursor-pointer shadow-gray-400 hover:scale-105">
+          <div 
+          onClick={(e) => {
+            e.preventDefault();
+            window.location.href='https://github.com/Magmastorm3007';
+            }} className="p-4 duration-300 ease-in rounded-full shadow-lg cursor-pointer shadow-gray-400 hover:scale-105">
             <FaGithub />
           </div>
-          <div className="p-4 duration-300 ease-in rounded-full shadow-lg cursor-pointer shadow-gray-400 hover:scale-105">
+          <div
+          onClick={(e) => {
+            e.preventDefault();
+            window.location.href='mailto:shashwatnath30@gmail.com';
+            }} 
+           className="p-4 duration-300 ease-in rounded-full shadow-lg cursor-pointer shadow-gray-400 hover:scale-105">
             <AiOutlineMail />
           </div>
-          <div className="p-4 duration-300 ease-in rounded-full shadow-lg cursor-pointer shadow-gray-400 hover:scale-105">
-            <BsPersonLinesFill />
-          </div>
+        
         </div>
       </div>
     </div>
