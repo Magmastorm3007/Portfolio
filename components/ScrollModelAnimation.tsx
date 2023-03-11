@@ -4,7 +4,7 @@ import { OrbitControls } from "three/examples/jsm/controls/OrbitControls";
 import gsap from "gsap";
 import { DivContainer, DivSpinner } from "./ScrollPage";
 import { loadGLTFModel } from "../lib/model";
-
+import { MutableRefObject } from "react"
 const ScrollModelAnimation = () => {
   const [loading, setLoading] = useState(true);
   const [renderer, setRenderer] = useState();
@@ -12,7 +12,7 @@ const ScrollModelAnimation = () => {
   const [scene] = useState(new THREE.Scene());
   const [_controls, setControls] = useState();
 
-  const refContainer = useRef();
+  const refContainer=useRef<null|HTMLDivElement>(null)
 
   useEffect(() => {
     const parameters = {
@@ -211,14 +211,7 @@ const ScrollModelAnimation = () => {
         }
       });
       //Cursor
-      const cursor = {};
-      cursor.x = 0;
-      cursor.y = 0;
-
-      window.addEventListener("mousemove", (e) => {
-        cursor.x = e.clientX / sizes.width - 0.5;
-        cursor.y = e.clientY / sizes.height - 0.5;
-      });
+   
       //Animate
       const clock = new THREE.Clock();
       let previousTime = 0;
@@ -234,13 +227,8 @@ const ScrollModelAnimation = () => {
         //animate camera
         camera.position.y = (-scrollY / sizes.height) * objectDistance;
 
-        const parallaxX = -cursor.x * 0.5;
-        const parallaxY = cursor.y * 0.5;
+       
 
-        cameraGroup.position.x +=
-          (parallaxX - cameraGroup.position.x) * 5 * deltaTime;
-        cameraGroup.position.y +=
-          (parallaxY - cameraGroup.position.y) * 5 * deltaTime;
 
         //animate meshes
         for (const mesh of sectionMeshes) {
@@ -257,7 +245,8 @@ const ScrollModelAnimation = () => {
   }, []);
 
   return (
-    <DivContainer ref={refContainer}>{loading && <DivSpinner />}</DivContainer>
+  
+      <DivContainer/>
   );
 };
 
