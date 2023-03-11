@@ -3,6 +3,7 @@ import Hero from "./Hero";
 import About from "./About";
 import Skills from "./Skills";
 import Projects from "./Projects";
+import Projects2 from "./Projects2";
 import Contact from "./Contact";
 
 export const DivSpinner = () => <div>Loading...</div>;
@@ -22,11 +23,17 @@ export const DivContainer = forwardRef(({ children }, ref) => (
       <Skills />
     </section>
 
-    <section id="project" className="flex items-center h-[100vh] relative text-lg uppercase pl-[10%] pr-[10%] text-[#ffeded] justify-end">
+    <section id="project" className="flex items-center h-[125vh] relative text-lg uppercase pl-[10%] pr-[10%] text-[#ffeded] justify-end">
       <Projects />
+    
     </section>
 
-    <section id="contact" className="flex items-center h-[300vh] relative text-lg uppercase pl-[10%] pr-[10%]text-[#ffeded]">
+    <section id="project" className="flex items-center h-[100vh] relative text-lg uppercase pl-[10%] pr-[10%] text-[#ffeded] justify-end">
+      <Projects2 />
+    
+    </section>
+
+    <section id="contact" className="flex items-center h-[160vh] relative text-lg uppercase pl-[10%] pr-[10%]text-[#ffeded]">
       <Contact />
     </section>
   </>
