@@ -23,7 +23,7 @@ export const DivContainer = () => (
       <Skills />
     </section>
 
-    <section id="project" className="flex items-center h-[125vh] relative text-lg uppercase pl-[10%] pr-[10%] text-[#ffeded] justify-end">
+    <section id="project" className="flex items-center h-[80vh] relative text-lg uppercase pl-[10%] pr-[10%] text-[#ffeded] justify-end">
       <Projects />
     
     </section>
@@ -33,7 +33,7 @@ export const DivContainer = () => (
     
     </section>
 
-    <section id="contact" className="flex items-center h-[160vh] relative text-lg uppercase pl-[10%] pr-[10%]text-[#ffeded]">
+    <section id="contact" className="flex items-center h-[250vh] relative text-lg uppercase pl-[10%] pr-[10%]text-[#ffeded]">
       <Contact />
     </section>
   </>
