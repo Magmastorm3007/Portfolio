@@ -19,19 +19,16 @@ export const DivContainer = () => (
       <About />
     </section>
 
-    <section id='skill'className="flex items-center h-[100vh] relative text-lg uppercase pl-[10%] pr-[10%] pt-[100px] font-neue text-[#ffeded]">
+    <section id='skill'className="flex items-center h-[40vh] relative text-lg uppercase pl-[10%] pr-[10%] pt-[100px] font-neue text-[#ffeded]">
       <Skills />
     </section>
 
-    <section id="project" className="flex items-center h-[80vh] relative text-lg uppercase pl-[10%] pr-[10%] text-[#ffeded] justify-end">
+    <section id="project" >
       <Projects />
     
     </section>
 
-    <section id="project" className="flex items-center h-[100vh] relative text-lg uppercase pl-[10%] pr-[10%] text-[#ffeded] justify-end">
-      <Projects2 />
-    
-    </section>
+  
 
     <section id="contact" className="flex items-center h-[250vh] relative text-lg uppercase pl-[10%] pr-[10%]text-[#ffeded]">
       <Contact />
