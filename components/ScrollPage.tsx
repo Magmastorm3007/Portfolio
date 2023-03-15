@@ -30,7 +30,7 @@ export const DivContainer = () => (
 
   
 
-    <section id="contact" className="flex items-center h-[250vh] relative text-lg uppercase pl-[10%] pr-[10%]text-[#ffeded]">
+    <section id="contact" className="flex items-center h-[270vh] relative text-lg uppercase pl-[10%] pr-[10%]text-[#ffeded]">
       <Contact />
     </section>
   </>

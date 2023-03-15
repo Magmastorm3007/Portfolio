@@ -8,7 +8,16 @@ const Hero = () => {
     window.scrollBy(0, 480);
   }
   return (
+    <div>
+             <div className="night">
+      <div className="star"></div>
+      <div className="star"></div>
+      <div className="star"></div>
+      <div className="star"></div>
+      <div className="star"></div>
+    </div>
     <div className="flex flex-col items-center justify-center">
+      
       <div className="flex flex-col items-center justify-center tracking-wider">
         <h1 className="pb-4 text-5xl font-bold font-kaushan">
           Shashwat Nath
@@ -22,6 +31,7 @@ const Hero = () => {
           Scroll
         </button>
       </div>
+    </div>
     </div>
   );
 };
