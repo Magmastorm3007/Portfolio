@@ -4,7 +4,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa&family=M+PLUS+Rounded+1c:wght@300&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -92,7 +92,8 @@ transform: skewX(-2deg);
 
 #lamp {
 width: 40vh;
-height: 5vh;
+height: 6vh;
+
 margin: 0 auto;
 }
 #top, #bottom {
@@ -154,6 +155,7 @@ width: 100%;
 height: 90vh;
 position: relative;
 top: -4vh;
+
 transform: perspective(100vh) rotateX(12deg);
 filter: contrast(22);
 background: linear-gradient(blue 30%, #60a 80%, #a06 100%);
