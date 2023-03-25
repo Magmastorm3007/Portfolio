@@ -6,15 +6,26 @@ const Contact = () => {
    const [email,setemail]=useState('')
   const [name,Setname]=useState('')
   const [message,SetMessage]=useState('')
+
+  const reset=()=>{
+    Setname('')
+  }
   const mail=(e: React.ChangeEvent<HTMLFormElement>)=>{
     e.preventDefault();
-
+    e.target.reset()
     emailjs.sendForm('service_dmimtja', 'template_jve3fog', e.target, 'QRmgbLck8DSx7As5o')
       .then((result) => {
           console.log(result.text);
+          alert("Form submitted successfully")
       }, (error) => {
           console.log(error.text);
+          alert("Details not entered correctly")
       });
+   
+     reset()
+
+
+    
 
    
   
@@ -54,7 +65,7 @@ const Contact = () => {
           <textarea name="message" onChange={(e)=>SetMessage(e.target.value)} className="w-full h-32 p-3 mt-2 text-gray-900 bg-gray-300 rounded-lg focus:outline-none focus:shadow-outline"></textarea>
         </div>
         <div className="mt-8">
-          <button type="submit" id="s" className="w-full p-3 text-sm font-bold tracking-wide text-gray-100 uppercase bg-indigo-500 rounded-lg focus:outline-none focus:shadow-outline">
+          <button data-modal-target="defaultModal" type="submit" id="s" className="w-full p-3 text-sm font-bold tracking-wide text-gray-100 uppercase bg-indigo-500 rounded-lg focus:outline-none focus:shadow-outline">
             Send Message
           </button>
         </div>

@@ -10,11 +10,13 @@ import { BsPersonLinesFill } from "react-icons/bs";
 
 const About = () => {
   return (
+    
     <div className="flex flex-col items-center justify-center text-center bg-[#1e293b] p-4 ml-[200px]">
+      
       <div className="pb-2 text-center font-inter">
-        <h2 className="text-4xl font-bold">About Me</h2>
+        <h2 className="text-4xl  font-Comfortaa">About Me</h2>
       </div>
-      <p className="pl-10 text-xl tracking-wider font-inter">
+      <p className="pl-10 text-xl font-mono -Regular font- tracking-wider font-inter">
         I am a third year student at Manipal University Jaipur
         with solid knowledge of Data Structures and Algorithms skilled in C/C++, Javascript, CSharp, and Python. I have applied my Web Development skills using MERN Stack, Firebase , Git, and Unity Engine for game design and development. 
       </p>
